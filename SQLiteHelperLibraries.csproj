@@ -1,14 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
+	  <TargetFrameworks>net7.0;netstandard2.0</TargetFrameworks>
 	  <LangVersion>latest</LangVersion>
 	  <ImplicitUsings>true</ImplicitUsings>
     <Nullable>enable</Nullable>
-  <Version>5.0.1</Version>
+  <Version>7.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.115.5" />
-    <PackageReference Include="CommonBasicLibraries" Version="7.0.1" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.116" />
+    <PackageReference Include="CommonBasicLibraries" Version="7.0.8" />
   </ItemGroup>
 </Project>
