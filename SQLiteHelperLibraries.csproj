@@ -5,10 +5,10 @@
 	  <LangVersion>latest</LangVersion>
 	  <ImplicitUsings>true</ImplicitUsings>
     <Nullable>enable</Nullable>
-  <Version>8.0.2</Version>
+  <Version>8.0.3</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
-    <PackageReference Include="CommonBasicLibraries" Version="8.0.6" />
+    <PackageReference Include="CommonBasicLibraries" Version="8.0.19" />
   </ItemGroup>
 </Project>

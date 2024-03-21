@@ -12,7 +12,7 @@ public static class SqliteCreateDocumentDatabaseClass
         m_dbConnection.Open();
         string sql;
         SQLiteCommand command;
-        sql = "Create Table DocumentTable (ID INTEGER PRIMARY KEY AutoIncrement, DatabaseName Text, CollectionName Text, JsonData Text)";
+        sql = "Create Table DocumentTable (ID INTEGER PRIMARY KEY AutoIncrement, DatabaseName Text, CollectionName Text, Data Text)";
         command = new(sql, m_dbConnection);
         command.ExecuteNonQuery();
     }
