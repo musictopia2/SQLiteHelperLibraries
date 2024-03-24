@@ -4,3 +4,4 @@ global using CommonBasicLibraries.DatabaseHelpers.MiscInterfaces;
 global using System.Data;
 global using System.Data.SQLite;
 global using dd1 = CommonBasicLibraries.DatabaseHelpers.MiscClasses.GlobalClass;
+global using System.Data.Common;

@@ -9,6 +9,10 @@ public class CustomSQLiteConnectionClass : ISQLiteConnector
         }
         return EnumDatabaseCategory.SQLite;
     }
+    IDbCommand IDbConnector.GetCommand()
+    {
+        return new SQLiteCommand();
+    }
     IDbConnection IDbConnector.GetConnection(EnumDatabaseCategory category, string connectionString)
     {
         if (category != EnumDatabaseCategory.SQLite)
@@ -16,5 +20,9 @@ public class CustomSQLiteConnectionClass : ISQLiteConnector
             throw new CustomBasicException("Only sqlite is supported for this category.  Rethink");
         }
         return new SQLiteConnection(connectionString);
+    }
+    DbParameter IDbConnector.GetParameter()
+    {
+        return new SQLiteParameter();
     }
 }

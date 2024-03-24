@@ -9,6 +9,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
-    <PackageReference Include="CommonBasicLibraries" Version="8.0.19" />
+    <PackageReference Include="CommonBasicLibraries" Version="8.0.20" />
   </ItemGroup>
 </Project>
