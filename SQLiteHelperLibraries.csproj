@@ -1,14 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-	  <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
-	  <LangVersion>latest</LangVersion>
-	  <ImplicitUsings>true</ImplicitUsings>
+    <TargetFrameworks>net9.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>true</ImplicitUsings>
     <Nullable>enable</Nullable>
-  <Version>8.0.3</Version>
+    <Version>9.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
-    <PackageReference Include="CommonBasicLibraries" Version="8.0.20" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+    <PackageReference Include="CommonBasicLibraries" Version="9.0.1" />
   </ItemGroup>
 </Project>
