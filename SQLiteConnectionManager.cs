@@ -1,6 +1,5 @@
 ﻿namespace SQLiteHelperLibraries;
-//specialized
-public class SQLServerConnectionManager : IDatabaseConnectionManager
+public class SQLiteConnectionManager : IDatabaseConnectionManager
 {
     EnumDatabaseCategory IDatabaseConnectionManager.PrepareDatabase()
     {
